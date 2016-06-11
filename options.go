@@ -1,8 +1,8 @@
-package lock
+package redlock
 
 import "time"
 
-const minWaitRetry = 10 * time.Millisecond
+const minWaitRetry = 100 * time.Millisecond
 
 type LockOptions struct {
 	// The maximum duration to lock a key for
