@@ -1,4 +1,4 @@
-package lock_test
+package redlock
 
 import (
 	"fmt"
