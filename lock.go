@@ -1,4 +1,4 @@
-package lock
+package redlock
 
 import (
 	"crypto/rand"
